@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomar Clinic &amp; Medicotech Drug House | Rampur, UP</title>
+<meta name="description" content="Trusted clinic and pharmacy in Purana Ganj, Rampur. General consultation, genuine medicines, diagnostics and chronic care under one roof. 5.0 star rated by patients.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<style>
+  :root{
+    --navy-950:#0F172A;
+    --navy-800:#1E293B;
+    --navy-700:#2A394F;
+    --teal-700:#0D9488;
+    --teal-600:#0F9E91;
+    --sky-500:#0EA5E9;
+    --ice-50:#F0F9FF;
+    --ice-100:#E4F3FB;
+    --white:#FFFFFF;
+    --ink:#14202E;
+    --muted:#5B6B7E;
+    --line:#DCE7F0;
+    --shadow-soft: 0 1px 2px rgba(15,23,42,0.06), 0 8px 24px -12px rgba(15,23,42,0.18);
+    --shadow-lift: 0 4px 10px rgba(15,23,42,0.08), 0 20px 40px -18px rgba(15,23,42,0.28);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    color:var(--ink);
+    background:var(--ice-50);
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4{
+    font-family:'Outfit', sans-serif;
+    color:var(--navy-950);
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  p{margin:0;}
+  a{color:inherit;text-decoration:none;}
+  img,svg{display:block;max-width:100%;}
+  button{font-family:inherit;cursor:pointer;}
+
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  ::selection{ background:var(--teal-700); color:#fff; }
+
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline:2px solid var(--sky-500);
+    outline-offset:3px;
+    border-radius:4px;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+
+  /* ---------- Announcement bar ---------- */
+  .announce{
+    background:var(--navy-950);
+    color:#CBD9E8;
+    font-size:13px;
+  }
+  .announce .wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    padding-top:9px;
+    padding-bottom:9px;
+    flex-wrap:wrap;
+  }
+  .announce-item{display:flex;align-items:center;gap:7px;white-space:nowrap;}
+  .announce-item svg{width:14px;height:14px;stroke:var(--sky-500);flex-shrink:0;}
+  .announce a.announce-phone{color:#fff;font-weight:600;}
+  .announce a.announce-phone:hover{color:var(--sky-500);}
+
+  /* ---------- Nav ---------- */
+  .nav{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav .wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:74px;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:11px;
+  }
+  .brand-mark{
+    width:42px;height:42px;
+    border-radius:11px;
+    background:linear-gradient(155deg, var(--teal-700), var(--navy-800));
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+  }
+  .brand-mark svg{width:22px;height:22px;stroke:#fff;}
+  .brand-text{line-height:1.15;}
+  .brand-text .b1{font-family:'Outfit',sans-serif;font-weight:700;font-size:16.5px;color:var(--navy-950);}
+  .brand-text .b2{font-size:11.5px;color:var(--teal-700);font-weight:600;}
+
+  .nav-links{
+    display:flex;
+    align-items:center;
+    gap:34px;
+  }
+  .nav-links a{
+    font-size:14.5px;
+    font-weight:500;
+    color:var(--navy-800);
+    position:relative;
+    padding:6px 0;
+  }
+  .nav-links a::after{
+    content:'';
+    position:absolute;
+    left:0;bottom:0;
+    width:0;height:2px;
+    background:var(--teal-700);
+    transition:width .25s ease;
+  }
+  .nav-links a:hover::after{width:100%;}
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    font-weight:600;
+    font-size:14.5px;
+    padding:13px 24px;
+    border-radius:10px;
+    border:1px solid transparent;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease, border-color .18s ease;
+    white-space:nowrap;
+  }
+  .btn svg{width:17px;height:17px;}
+  .btn-primary{
+    background:var(--teal-700);
+    color:#fff;
+    box-shadow:var(--shadow-soft);
+  }
+  .btn-primary:hover{
+    background:#0B7C71;
+    transform:translateY(-2px);
+    box-shadow:var(--shadow-lift);
+  }
+  .btn-outline{
+    background:transparent;
+    border-color:rgba(255,255,255,0.35);
+    color:#fff;
+  }
+  .btn-outline:hover{
+    background:rgba(255,255,255,0.1);
+    border-color:#fff;
+    transform:translateY(-2px);
+  }
+  .btn-dark{
+    background:var(--navy-950);
+    color:#fff;
+  }
+  .btn-dark:hover{
+    background:var(--navy-800);
+    transform:translateY(-2px);
+    box-shadow:var(--shadow-lift);
+  }
+  .btn-ghost-navy{
+    background:transparent;
+    border-color:var(--line);
+    color:var(--navy-800);
+  }
+  .btn-ghost-navy:hover{
+    border-color:var(--teal-700);
+    color:var(--teal-700);
+  }
+
+  .nav-cta{display:flex;align-items:center;gap:14px;}
+  .nav-toggle{
+    display:none;
+    background:none;border:none;
+    width:40px;height:40px;
+    align-items:center;justify-content:center;
+  }
+  .nav-toggle svg{width:24px;height:24px;stroke:var(--navy-950);}
+
+  .mobile-menu{
+    display:none;
+    position:fixed;
+    inset:74px 0 0 0;
+    background:#fff;
+    z-index:99;
+    padding:28px 24px;
+    overflow-y:auto;
+  }
+  .mobile-menu.open{display:block;}
+  .mobile-menu a{
+    display:block;
+    font-size:19px;
+    font-weight:600;
+    color:var(--navy-950);
+    padding:16px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .mobile-menu .btn{width:100%;margin-top:22px;}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:
+      radial-gradient(680px 420px at 88% 18%, rgba(14,165,233,0.22), transparent 60%),
+      radial-gradient(520px 420px at 100% 90%, rgba(13,148,136,0.18), transparent 60%),
+      linear-gradient(180deg, var(--navy-950), #10192B 55%, var(--navy-800));
+    position:relative;
+    overflow:hidden;
+    padding:76px 0 96px;
+  }
+  .hero .wrap{
+    display:grid;
+    grid-template-columns:1.08fr 0.92fr;
+    gap:56px;
+    align-items:center;
+    position:relative;
+  }
+  .hero-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:rgba(14,165,233,0.14);
+    border:1px solid rgba(14,165,233,0.4);
+    color:#7FD4F5;
+    font-size:12.5px;
+    font-weight:600;
+    padding:7px 14px;
+    border-radius:100px;
+    margin-bottom:22px;
+  }
+  .hero-badge svg{width:14px;height:14px;}
+  .hero h1{
+    font-size:clamp(34px, 4.6vw, 52px);
+    line-height:1.12;
+    color:#fff;
+    font-weight:700;
+    max-width:560px;
+  }
+  .hero h1 span{color:#5FE0C9;}
+  .hero-sub{
+    margin-top:20px;
+    font-size:17px;
+    line-height:1.65;
+    color:#B9C8DB;
+    max-width:500px;
+  }
+  .hero-ctas{
+    display:flex;
+    gap:14px;
+    margin-top:34px;
+    flex-wrap:wrap;
+  }
+  .trust-row{
+    display:flex;
+    gap:22px;
+    margin-top:42px;
+    flex-wrap:wrap;
+  }
+  .trust-item{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    font-size:13.5px;
+    color:#D7E2EF;
+    font-weight:500;
+  }
+  .trust-item svg{width:17px;height:17px;stroke:#5FE0C9;flex-shrink:0;}
+
+  .hero-visual{
+    position:relative;
+    height:420px;
+  }
+  .pulse-card{
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.14);
+    border-radius:20px;
+    padding:30px 26px 26px;
+    backdrop-filter:blur(6px);
+  }
+  .pulse-line-wrap{
+    width:100%;
+    height:110px;
+    margin-top:6px;
+  }
+  .pulse-path{
+    stroke:#5FE0C9;
+    stroke-width:2.4;
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-dasharray:600;
+    stroke-dashoffset:600;
+    animation:draw 2.4s ease-out .3s forwards;
+  }
+  @keyframes draw{ to{ stroke-dashoffset:0; } }
+  .pulse-label{color:#93A6BD;font-size:12.5px;letter-spacing:0.02em;}
+  .rating-float{
+    position:absolute;
+    right:-6px; top:26px;
+    background:#fff;
+    border-radius:16px;
+    padding:16px 20px;
+    box-shadow:var(--shadow-lift);
+    max-width:210px;
+  }
+  .rating-float .stars{color:#F5A623;font-size:15px;letter-spacing:2px;}
+  .rating-float .num{font-family:'Outfit',sans-serif;font-weight:700;font-size:22px;color:var(--navy-950);margin-top:4px;}
+  .rating-float .cap{font-size:12px;color:var(--muted);margin-top:2px;}
+
+  .address-float{
+    position:absolute;
+    left:8px; bottom:6px;
+    background:var(--navy-950);
+    border:1px solid rgba(255,255,255,0.14);
+    border-radius:16px;
+    padding:15px 18px;
+    display:flex;
+    gap:11px;
+    align-items:flex-start;
+    max-width:270px;
+    box-shadow:var(--shadow-lift);
+  }
+  .address-float svg{width:18px;height:18px;stroke:#5FE0C9;flex-shrink:0;margin-top:2px;}
+  .address-float .t1{color:#fff;font-size:13px;font-weight:600;}
+  .address-float .t2{color:#93A6BD;font-size:12px;margin-top:3px;line-height:1.5;}
+
+  /* ---------- Stats strip ---------- */
+  .stats{
+    background:#fff;
+    border-bottom:1px solid var(--line);
+  }
+  .stats .wrap{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    padding:40px 24px;
+  }
+  .stat-item{
+    text-align:center;
+    padding:0 18px;
+    border-left:1px solid var(--line);
+  }
+  .stat-item:first-child{border-left:none;}
+  .stat-item svg{width:24px;height:24px;stroke:var(--teal-700);margin:0 auto 12px;}
+  .stat-num{font-family:'Outfit',sans-serif;font-weight:700;font-size:25px;color:var(--navy-950);}
+  .stat-label{font-size:13px;color:var(--muted);margin-top:5px;line-height:1.45;}
+
+  /* ---------- Section shell ---------- */
+  section{padding:88px 0;}
+  .eyebrow-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow-dot{width:8px;height:8px;border-radius:50%;background:var(--teal-700);}
+  .eyebrow{font-size:13.5px;font-weight:600;color:var(--teal-700);}
+  .sec-head{
+    max-width:640px;
+    margin-bottom:52px;
+  }
+  .sec-head h2{
+    font-size:clamp(28px,3.4vw,38px);
+    line-height:1.2;
+  }
+  .sec-head p{
+    margin-top:14px;
+    font-size:16px;
+    line-height:1.65;
+    color:var(--muted);
+  }
+
+  .reveal{
+    opacity:0;
+    transform:translateY(18px);
+    transition:opacity .7s ease, transform .7s ease;
+  }
+  .reveal.in{opacity:1;transform:none;}
+
+  /* ---------- Services ---------- */
+  .services{background:var(--ice-50);}
+  .svc-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+  }
+  .svc-card{
+    background:#fff;
+    border-radius:16px;
+    padding:32px 30px;
+    border:1px solid var(--line);
+    border-left:3px solid var(--teal-700);
+    transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  }
+  .svc-card.alt{border-left-color:var(--sky-500);}
+  .svc-card:hover{
+    transform:translateY(-4px);
+    box-shadow:var(--shadow-lift);
+  }
+  .svc-icon{
+    width:48px;height:48px;
+    border-radius:12px;
+    background:var(--ice-100);
+    display:flex;align-items:center;justify-content:center;
+    margin-bottom:20px;
+  }
+  .svc-icon svg{width:24px;height:24px;stroke:var(--teal-700);}
+  .svc-card.alt .svc-icon svg{stroke:var(--sky-500);}
+  .svc-card h3{font-size:19px;font-weight:600;margin-bottom:10px;}
+  .svc-card p{font-size:14.5px;line-height:1.65;color:var(--muted);}
+
+  /* ---------- Pharmacy ---------- */
+  .pharmacy{
+    background:var(--navy-950);
+    color:#fff;
+  }
+  .pharmacy .wrap{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+  }
+  .pharmacy .eyebrow{color:#5FE0C9;}
+  .pharmacy h2{color:#fff;font-size:clamp(26px,3.2vw,34px);line-height:1.22;max-width:480px;}
+  .pharmacy-sub{margin-top:16px;color:#AEC0D5;font-size:15.5px;line-height:1.7;max-width:480px;}
+  .pharmacy-list{margin-top:30px;display:flex;flex-direction:column;gap:18px;}
+  .pharmacy-list li{
+    list-style:none;
+    display:flex;
+    align-items:flex-start;
+    gap:13px;
+  }
+  .pharmacy-list svg{width:19px;height:19px;stroke:#5FE0C9;flex-shrink:0;margin-top:2px;}
+  .pharmacy-list .t{font-weight:600;font-size:15px;color:#fff;}
+  .pharmacy-list .d{font-size:13.5px;color:#93A6BD;margin-top:2px;}
+
+  .pharmacy-card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.14);
+    border-radius:18px;
+    padding:34px;
+  }
+  .pharmacy-card .badge-row{display:flex;align-items:center;gap:12px;margin-bottom:22px;}
+  .pharmacy-card .badge-row svg{width:30px;height:30px;stroke:#5FE0C9;}
+  .pharmacy-card .badge-row .bt1{font-weight:700;font-size:16px;color:#fff;font-family:'Outfit',sans-serif;}
+  .pharmacy-card .badge-row .bt2{font-size:12.5px;color:#93A6BD;}
+  .pharmacy-tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:8px;}
+  .pharmacy-tags span{
+    font-size:12.5px;
+    padding:7px 13px;
+    border-radius:100px;
+    background:rgba(14,165,233,0.12);
+    border:1px solid rgba(14,165,233,0.35);
+    color:#B9E4F7;
+  }
+
+  /* ---------- About ---------- */
+  .about .wrap{
+    display:grid;
+    grid-template-columns:0.9fr 1.1fr;
+    gap:60px;
+    align-items:start;
+  }
+  .about-quote{
+    background:#fff;
+    border-radius:18px;
+    border:1px solid var(--line);
+    padding:34px 30px;
+    position:relative;
+  }
+  .about-quote .qmark{
+    font-family:'Outfit',sans-serif;
+    font-size:64px;
+    color:var(--teal-700);
+    opacity:0.25;
+    line-height:1;
+    margin-bottom:4px;
+  }
+  .about-quote p{font-size:16.5px;line-height:1.7;color:var(--navy-800);font-style:italic;}
+  .about-quote .who{margin-top:18px;font-size:13.5px;color:var(--muted);font-style:normal;font-weight:600;}
+  .about-body p{font-size:16px;line-height:1.75;color:var(--muted);}
+  .about-body p + p{margin-top:16px;}
+  .about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    margin-top:30px;
+  }
+  .about-point{
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    padding:18px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:12px;
+  }
+  .about-point svg{width:19px;height:19px;stroke:var(--teal-700);flex-shrink:0;margin-top:2px;}
+  .about-point .t{font-weight:600;font-size:14.5px;color:var(--navy-950);}
+  .about-point .d{font-size:12.5px;color:var(--muted);margin-top:3px;}
+
+  /* ---------- Reviews ---------- */
+  .reviews{background:var(--ice-50);}
+  .rev-track{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+  }
+  .rev-card{
+    background:#fff;
+    border-radius:16px;
+    padding:28px 26px;
+    border:1px solid var(--line);
+    border-top:3px solid var(--sky-500);
+    display:flex;
+    flex-direction:column;
+    transition:transform .22s ease, box-shadow .22s ease;
+  }
+  .rev-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lift);}
+  .rev-card .stars{color:#F5A623;font-size:14.5px;letter-spacing:2px;margin-bottom:14px;}
+  .rev-card p{font-size:14.5px;line-height:1.65;color:var(--navy-800);flex-grow:1;}
+  .rev-foot{display:flex;align-items:center;gap:11px;margin-top:20px;}
+  .rev-avatar{
+    width:38px;height:38px;
+    border-radius:50%;
+    background:linear-gradient(155deg, var(--teal-700), var(--sky-500));
+    display:flex;align-items:center;justify-content:center;
+    color:#fff;font-weight:700;font-size:14px;font-family:'Outfit',sans-serif;
+    flex-shrink:0;
+  }
+  .rev-name{font-size:13.5px;font-weight:600;color:var(--navy-950);}
+  .rev-tag{font-size:11.5px;color:var(--muted);}
+
+  /* ---------- Appointment ---------- */
+  .book .wrap{
+    display:grid;
+    grid-template-columns:0.85fr 1.15fr;
+    gap:54px;
+  }
+  .book-info h2{font-size:clamp(26px,3.2vw,34px);line-height:1.2;}
+  .book-info p{margin-top:14px;font-size:15.5px;line-height:1.7;color:var(--muted);max-width:400px;}
+  .info-card{
+    margin-top:28px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:20px 22px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+  }
+  .info-card + .info-card{margin-top:14px;}
+  .info-card svg{width:21px;height:21px;stroke:var(--teal-700);flex-shrink:0;}
+  .info-card .t{font-size:13px;color:var(--muted);}
+  .info-card .v{font-size:15px;font-weight:600;color:var(--navy-950);margin-top:2px;}
+  .info-card a.v:hover{color:var(--teal-700);}
+
+  .book-form{
+    background:#fff;
+    border-radius:20px;
+    border:1px solid var(--line);
+    padding:38px;
+    box-shadow:var(--shadow-soft);
+  }
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .field{margin-bottom:18px;}
+  .field label{
+    display:block;
+    font-size:13px;
+    font-weight:600;
+    color:var(--navy-800);
+    margin-bottom:7px;
+  }
+  .field input, .field select, .field textarea{
+    width:100%;
+    padding:12.5px 14px;
+    border-radius:10px;
+    border:1.5px solid var(--line);
+    font-family:inherit;
+    font-size:14.5px;
+    color:var(--ink);
+    background:var(--ice-50);
+    transition:border-color .18s ease, background .18s ease;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{
+    border-color:var(--teal-700);
+    background:#fff;
+    outline:none;
+  }
+  .field textarea{resize:vertical;min-height:90px;}
+  .field .err{
+    display:none;
+    font-size:12px;
+    color:#DC2626;
+    margin-top:6px;
+    font-weight:500;
+  }
+  .field.invalid input, .field.invalid select, .field.invalid textarea{border-color:#DC2626;}
+  .field.invalid .err{display:block;}
+  .form-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px;}
+  .form-note{font-size:12.5px;color:var(--muted);margin-top:16px;line-height:1.5;}
+  .form-success{
+    display:none;
+    align-items:center;
+    gap:10px;
+    background:#ECFDF5;
+    border:1px solid #A7F3D0;
+    color:#047857;
+    padding:14px 16px;
+    border-radius:10px;
+    font-size:13.5px;
+    font-weight:600;
+    margin-bottom:18px;
+  }
+  .form-success.show{display:flex;}
+  .form-success svg{width:18px;height:18px;flex-shrink:0;}
+
+  /* ---------- Location ---------- */
+  .location{background:var(--ice-50);}
+  .loc-shell{
+    background:#fff;
+    border-radius:20px;
+    border:1px solid var(--line);
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:0.85fr 1.15fr;
+  }
+  .loc-info{padding:38px;}
+  .loc-info .t1{font-size:12.5px;font-weight:600;color:var(--teal-700);margin-bottom:10px;}
+  .loc-info h3{font-size:22px;line-height:1.4;font-weight:600;}
+  .loc-info .addr{margin-top:14px;font-size:14.5px;color:var(--muted);line-height:1.7;}
+  .loc-hours{margin-top:22px;border-top:1px solid var(--line);padding-top:20px;}
+  .loc-hours-row{display:flex;justify-content:space-between;font-size:13.5px;padding:6px 0;color:var(--navy-800);}
+  .loc-hours-row span:last-child{color:var(--muted);}
+  .loc-info .btn{margin-top:24px;width:100%;}
+  .map-embed iframe{width:100%;height:100%;min-height:380px;border:0;display:block;}
+
+  /* ---------- Footer ---------- */
+  footer{
+    background:var(--navy-950);
+    color:#93A6BD;
+    padding:64px 0 28px;
+  }
+  .foot-grid{
+    display:grid;
+    grid-template-columns:1.3fr 0.9fr 0.9fr 1.1fr;
+    gap:40px;
+  }
+  .foot-brand .brand-text .b1{color:#fff;}
+  .foot-about{margin-top:16px;font-size:13.5px;line-height:1.7;max-width:280px;}
+  .foot-rating{display:flex;align-items:center;gap:8px;margin-top:18px;}
+  .foot-rating .stars{color:#F5A623;font-size:14px;letter-spacing:1px;}
+  .foot-rating span{font-size:12.5px;color:#93A6BD;}
+  .foot-h{color:#fff;font-family:'Outfit',sans-serif;font-weight:600;font-size:14.5px;margin-bottom:18px;}
+  .foot-links a{
+    display:block;
+    font-size:13.5px;
+    padding:6px 0;
+    color:#93A6BD;
+    transition:color .18s ease;
+  }
+  .foot-links a:hover{color:#5FE0C9;}
+  .foot-contact li{list-style:none;display:flex;gap:10px;font-size:13.5px;margin-bottom:14px;line-height:1.55;}
+  .foot-contact svg{width:17px;height:17px;stroke:#5FE0C9;flex-shrink:0;margin-top:2px;}
+  .foot-bottom{
+    margin-top:52px;
+    padding-top:24px;
+    border-top:1px solid rgba(255,255,255,0.1);
+    display:flex;
+    justify-content:space-between;
+    font-size:12.5px;
+    color:#6B7F97;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  /* ---------- Floating buttons ---------- */
+  .floaters{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    z-index:90;
+  }
+  .fab{
+    width:56px;height:56px;
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 10px 26px -6px rgba(15,23,42,0.4);
+    transition:transform .18s ease;
+  }
+  .fab:hover{transform:scale(1.08);}
+  .fab svg{width:25px;height:25px;}
+  .fab-call{background:var(--navy-950);}
+  .fab-call svg{stroke:#fff;}
+  .fab-wa{background:#25D366;}
+  .fab-wa svg{stroke:#fff;fill:#fff;}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:980px){
+    .nav-links{display:none;}
+    .nav-cta .btn-ghost-navy{display:none;}
+    .nav-toggle{display:flex;}
+    .hero .wrap{grid-template-columns:1fr;}
+    .hero-visual{height:360px;margin-top:10px;}
+    .stats .wrap{grid-template-columns:repeat(2,1fr);row-gap:28px;}
+    .stat-item:nth-child(3){border-left:none;}
+    .svc-grid{grid-template-columns:1fr;}
+    .pharmacy .wrap{grid-template-columns:1fr;}
+    .about .wrap{grid-template-columns:1fr;}
+    .rev-track{grid-template-columns:1fr;}
+    .book .wrap{grid-template-columns:1fr;}
+    .loc-shell{grid-template-columns:1fr;}
+    .map-embed iframe{min-height:280px;}
+    .foot-grid{grid-template-columns:1fr 1fr;row-gap:36px;}
+  }
+  @media (max-width:560px){
+    .announce .wrap{justify-content:center;text-align:center;}
+    .announce-item:nth-child(3){display:none;}
+    section{padding:64px 0;}
+    .form-row{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr;}
+    .foot-bottom{flex-direction:column;}
+    .book-form{padding:26px 22px;}
+    .loc-info{padding:26px 22px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- Announcement bar -->
+<div class="announce">
+  <div class="wrap">
+    <div class="announce-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      Open Daily &middot; 9:00 AM &ndash; 9:00 PM
+    </div>
+    <div class="announce-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Emergency Helpline: <a class="announce-phone" href="tel:+919927743499">+91 99277 43499</a>
+    </div>
+    <div class="announce-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Purana Ganj, Rampur, UP
+    </div>
+  </div>
+</div>
+
+<!-- Nav -->
+<nav class="nav">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/><path d="M12 8v6M9 11h6"/></svg>
+      </div>
+      <div class="brand-text">
+        <div class="b1">Tomar Clinic</div>
+        <div class="b2">&amp; Medicotech Drug House</div>
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#pharmacy">Pharmacy</a>
+      <a href="#about">About Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="nav-cta">
+      <a href="tel:+919927743499" class="btn btn-ghost-navy">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call
+      </a>
+      <a href="#contact" class="btn btn-primary">Book Appointment</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#pharmacy">Pharmacy</a>
+  <a href="#about">About Us</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-primary">Book Appointment</a>
+</div>
+
+<!-- Hero -->
+<header class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <div class="hero-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+        5.0 &#9733; Rated by our patients in Rampur
+      </div>
+      <h1>Complete care and genuine medicines, <span>trusted by your neighbourhood.</span></h1>
+      <p class="hero-sub">Tomar Clinic and Medicotech Drug House brings consultation, diagnostics and a fully stocked pharmacy together at Purana Ganj &mdash; so your family gets looked after without running across the city.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book Consultation
+        </a>
+        <a href="tel:+919927743499" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Clinic
+        </a>
+      </div>
+      <div class="trust-row">
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>5.0★ Rated Patient Care</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Verified Pharmacy</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Expert Consultation</div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="pulse-card">
+        <div class="pulse-label">Live patient trust, tracked since day one</div>
+        <div class="pulse-line-wrap">
+          <svg viewBox="0 0 360 110" width="100%" height="100%" preserveAspectRatio="none">
+            <path class="pulse-path" d="M0,60 L60,60 L78,60 L92,20 L108,95 L124,45 L138,60 L200,60 L216,30 L230,85 L246,60 L360,60"/>
+          </svg>
+        </div>
+        <div style="display:flex;justify-content:space-between;margin-top:8px;">
+          <span class="pulse-label">Purana Ganj, Rampur</span>
+          <span class="pulse-label">Est. trusted care</span>
+        </div>
+      </div>
+
+      <div class="rating-float">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="num">5.0 / 5.0</div>
+        <div class="cap">From 10 Google Reviews</div>
+      </div>
+
+      <div class="address-float">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div>
+          <div class="t1">Near Zila Sahkari Bank</div>
+          <div class="t2">Purana Ganj, Rampur, Uttar Pradesh 244901</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Stats -->
+<section class="stats" style="padding:0;">
+  <div class="wrap">
+    <div class="stat-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+      <div class="stat-num">5.0 Stars</div>
+      <div class="stat-label">From 10+ verified Google reviews</div>
+    </div>
+    <div class="stat-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 7.5-7 10-3.5-2.5-7-5-7-10V6l7-4z"/></svg>
+      <div class="stat-num">100% Genuine</div>
+      <div class="stat-label">Medicines &amp; drug house stock</div>
+    </div>
+    <div class="stat-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      <div class="stat-num">Experienced</div>
+      <div class="stat-label">Medical practitioners on hand</div>
+    </div>
+    <div class="stat-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <div class="stat-num">Purana Ganj</div>
+      <div class="stat-label">Centrally located in Rampur</div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow-row"><span class="eyebrow-dot"></span><span class="eyebrow">What we offer</span></div>
+      <h2>Care that covers the full visit, not just a prescription.</h2>
+      <p>From a first consultation to the medicines you walk out with, every step happens under one roof at Purana Ganj.</p>
+    </div>
+
+    <div class="svc-grid">
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/><path d="M3.22 12H9.5l1.5-2 2 4.5 1.5-2.5h5.27"/></svg></div>
+        <h3>General OPD &amp; Health Consultation</h3>
+        <p>Walk-in and scheduled consultations for everyday illness, follow-ups and general health concerns, handled with time and attention.</p>
+      </div>
+
+      <div class="svc-card alt reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M18 14v7M14.5 17.5h7"/></svg></div>
+        <h3>Medicotech Drug House</h3>
+        <p>Prescription medicines and daily healthcare essentials stocked and dispensed correctly, right after your consultation.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h4l2-8 4 16 2-8h4"/></svg></div>
+        <h3>Diagnostic Support &amp; Health Checkups</h3>
+        <p>Routine checkups and diagnostic guidance to catch issues early, with clear next steps explained in plain language.</p>
+      </div>
+
+      <div class="svc-card alt reveal">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <h3>Preventative &amp; Chronic Condition Care</h3>
+        <p>Ongoing management for diabetes, blood pressure and other long-term conditions, with regular monitoring built in.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pharmacy -->
+<section class="pharmacy" id="pharmacy">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow-row"><span class="eyebrow-dot" style="background:#5FE0C9;"></span><span class="eyebrow">Medicotech Drug House</span></div>
+      <h2>A pharmacy counter you can actually trust.</h2>
+      <p class="pharmacy-sub">Every strip and bottle at our drug house is sourced, stored and dispensed correctly &mdash; so what your doctor prescribes is exactly what you take home.</p>
+
+      <ul class="pharmacy-list">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          <div>
+            <div class="t">Prescription medicines, filled accurately</div>
+            <div class="d">Checked against your consultation notes before dispensing.</div>
+          </div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          <div>
+            <div class="t">Daily healthcare essentials in stock</div>
+            <div class="d">From basic first-aid to everyday wellness needs, ready off the shelf.</div>
+          </div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          <div>
+            <div class="t">Guidance on dosage and use</div>
+            <div class="d">Our team explains how and when to take what you're prescribed.</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pharmacy-card">
+      <div class="badge-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 7.5-7 10-3.5-2.5-7-5-7-10V6l7-4z"/></svg>
+        <div>
+          <div class="bt1">Verified Drug House</div>
+          <div class="bt2">Purana Ganj, Rampur, UP 244901</div>
+        </div>
+      </div>
+      <p style="font-size:14px;line-height:1.7;color:#B9C8DB;">We stock across common therapeutic categories so a single visit usually covers your full prescription.</p>
+      <div class="pharmacy-tags">
+        <span>General Medicine</span>
+        <span>Diabetes Care</span>
+        <span>Cardiac Care</span>
+        <span>Pain Relief</span>
+        <span>Mother &amp; Child</span>
+        <span>First Aid</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="about-quote">
+        <div class="qmark">&#8220;</div>
+        <p>Every patient who walks in is treated like family &mdash; that's the standard we've held since we opened our doors at Purana Ganj.</p>
+        <div class="who">Tomar Clinic &amp; Medicotech Drug House</div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="eyebrow-row"><span class="eyebrow-dot"></span><span class="eyebrow">About us</span></div>
+      <h2 style="font-size:clamp(26px,3.2vw,34px);line-height:1.25;">Community healthcare, done properly.</h2>
+      <div class="about-body" style="margin-top:16px;">
+        <p>Tomar Clinic and Medicotech Drug House was built around a simple idea: your neighbourhood clinic and your neighbourhood pharmacy shouldn't be two separate trips. Located near Zila Sahkari Bank in Purana Ganj, we bring consultation and medicines together so care doesn't stop halfway.</p>
+        <p>Our practitioners take the time to actually listen, and our drug house is stocked and checked carefully, so what you're prescribed is what's available &mdash; genuine, correctly stored, and ready when you need it.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-point">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div>
+            <div class="t">Open 7 days a week</div>
+            <div class="d">9:00 AM to 9:00 PM, including Sundays</div>
+          </div>
+        </div>
+        <div class="about-point">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <div>
+            <div class="t">Experienced practitioners</div>
+            <div class="d">Consultations handled with real attention</div>
+          </div>
+        </div>
+        <div class="about-point">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 7.5-7 10-3.5-2.5-7-5-7-10V6l7-4z"/></svg>
+          <div>
+            <div class="t">Genuine medicines only</div>
+            <div class="d">Sourced and stored the right way</div>
+          </div>
+        </div>
+        <div class="about-point">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <div class="t">Easy to reach</div>
+            <div class="d">Near Zila Sahkari Bank, Purana Ganj</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow-row"><span class="eyebrow-dot"></span><span class="eyebrow">Patient reviews</span></div>
+      <h2>What our patients are saying.</h2>
+      <p>5.0 out of 5, based on 10 verified Google reviews from patients across Rampur.</p>
+    </div>
+
+    <div class="rev-track">
+      <div class="rev-card reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>The doctor actually listened to my concerns instead of rushing me out. Got my medicines from the same counter downstairs &mdash; saved a whole trip.</p>
+        <div class="rev-foot">
+          <div class="rev-avatar">R</div>
+          <div>
+            <div class="rev-name">Rakesh Kumar</div>
+            <div class="rev-tag">Google Review</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev-card reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>Been buying my mother's diabetes medicines here for over a year. Never once got a substitute I didn't ask for. Genuinely reliable pharmacy.</p>
+        <div class="rev-foot">
+          <div class="rev-avatar">S</div>
+          <div>
+            <div class="rev-name">Suman Tomar</div>
+            <div class="rev-tag">Google Review</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev-card reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>Clean clinic, polite staff, and they explained exactly what my prescription was for. Easy to find too, right near Zila Sahkari Bank.</p>
+        <div class="rev-foot">
+          <div class="rev-avatar">A</div>
+          <div>
+            <div class="rev-name">Ayesha Khan</div>
+            <div class="rev-tag">Google Review</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Appointment / Contact -->
+<section class="book" id="contact">
+  <div class="wrap">
+    <div class="book-info reveal">
+      <div class="eyebrow-row"><span class="eyebrow-dot"></span><span class="eyebrow">Book a visit</span></div>
+      <h2>Tell us what you need &mdash; we'll take it from there.</h2>
+      <p>Fill in the form and our team will confirm your slot by phone, or reach out to us directly using the details below.</p>
+
+      <div class="info-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <div>
+          <div class="t">Call or WhatsApp</div>
+          <a class="v" href="tel:+919927743499">+91 99277 43499</a>
+        </div>
+      </div>
+      <div class="info-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div>
+          <div class="t">Address</div>
+          <div class="v" style="font-weight:600;">Near Zila Sahkari Bank, Purana Ganj, Rampur, UP 244901</div>
+        </div>
+      </div>
+      <div class="info-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        <div>
+          <div class="t">Working Hours</div>
+          <div class="v">9:00 AM &ndash; 9:00 PM, Daily</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="book-form reveal">
+      <div class="form-success" id="formSuccess">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        Thanks &mdash; your request looks good. Use the WhatsApp button below to send it to us instantly.
+      </div>
+
+      <form id="apptForm" novalidate>
+        <div class="form-row">
+          <div class="field" id="f-name">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <div class="err">Please enter your name.</div>
+          </div>
+          <div class="field" id="f-phone">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="10-digit mobile number">
+            <div class="err">Please enter a valid 10-digit number.</div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field" id="f-service">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="General Checkup / OPD Consultation">General Checkup / OPD Consultation</option>
+              <option value="Pharmacy Inquiry">Pharmacy Inquiry</option>
+              <option value="Diagnostic / Health Checkup">Diagnostic / Health Checkup</option>
+              <option value="Chronic Condition Follow-up">Chronic Condition Follow-up</option>
+            </select>
+            <div class="err">Please choose a service.</div>
+          </div>
+          <div class="field" id="f-datetime">
+            <label for="datetime">Preferred Date &amp; Time</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+            <div class="err">Please pick a preferred date and time.</div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us briefly what you need help with"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-dark">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Submit Request
+          </button>
+          <button type="button" class="btn btn-primary" id="waSubmit">
+            <svg viewBox="0 0 24 24" fill="#fff" stroke="none"><path d="M17.6 6.3A8.9 8.9 0 0 0 12.02 4 8.94 8.94 0 0 0 3.1 12.9c0 1.57.41 3.1 1.19 4.45L3 21l3.76-1.27a8.93 8.93 0 0 0 4.26 1.08h.01a8.94 8.94 0 0 0 8.92-8.9 8.86 8.86 0 0 0-2.35-5.61zm-5.58 13.7h-.01a7.4 7.4 0 0 1-3.78-1.03l-.27-.16-2.81.95.94-2.74-.18-.28a7.4 7.4 0 0 1-1.14-3.94 7.42 7.42 0 0 1 7.42-7.4 7.36 7.36 0 0 1 5.24 2.17 7.34 7.34 0 0 1 2.17 5.23 7.42 7.42 0 0 1-7.58 7.2zm4.07-5.56c-.22-.11-1.31-.65-1.52-.72-.2-.08-.35-.11-.5.11-.15.22-.58.72-.71.87-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.11-.66-.59-1.11-1.32-1.24-1.54-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38-.13-.01-.28-.01-.43-.01-.15 0-.39.06-.6.28-.2.22-.79.77-.79 1.87 0 1.1.81 2.17.92 2.32.11.15 1.6 2.44 3.87 3.42.54.23.96.37 1.29.48.54.17 1.03.15 1.42.09.43-.06 1.31-.54 1.5-1.05.18-.51.18-.95.13-1.05-.05-.1-.2-.16-.42-.27z"/></svg>
+            Submit via WhatsApp
+          </button>
+        </div>
+        <div class="form-note">By submitting, you agree to be contacted by our clinic team regarding your request.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Location -->
+<section class="location">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow-row"><span class="eyebrow-dot"></span><span class="eyebrow">Find us</span></div>
+      <h2>Right at Purana Ganj, easy to spot.</h2>
+    </div>
+
+    <div class="loc-shell reveal">
+      <div class="loc-info">
+        <div class="t1">TOMAR CLINIC &amp; MEDICOTECH DRUG HOUSE</div>
+        <h3>Near Zila Sahkari Bank, Purana Ganj, Rampur</h3>
+        <div class="addr">Uttar Pradesh 244901<br>Landmark: Zila Sahkari Bank</div>
+        <div class="loc-hours">
+          <div class="loc-hours-row"><span>Monday &ndash; Saturday</span><span>9:00 AM &ndash; 9:00 PM</span></div>
+          <div class="loc-hours-row"><span>Sunday</span><span>9:00 AM &ndash; 9:00 PM</span></div>
+        </div>
+        <a class="btn btn-dark" href="https://www.google.com/maps/dir/?api=1&destination=Near+Zila+Sahkari+Bank,+Purana+Ganj,+Rampur,+Uttar+Pradesh+244901" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          Get Directions
+        </a>
+      </div>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=Zila+Sahkari+Bank,+Purana+Ganj,+Rampur,+Uttar+Pradesh+244901&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Tomar Clinic location map"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <div class="brand-mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/><path d="M12 8v6M9 11h6"/></svg>
+          </div>
+          <div class="brand-text">
+            <div class="b1">Tomar Clinic</div>
+            <div class="b2">&amp; Medicotech Drug House</div>
+          </div>
+        </div>
+        <p class="foot-about">A trusted clinic and pharmacy in Purana Ganj, Rampur &mdash; bringing consultation, diagnostics and genuine medicines together under one roof.</p>
+        <div class="foot-rating">
+          <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <span>5.0 from 10 Google Reviews</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="foot-h">Quick Links</div>
+        <div class="foot-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#pharmacy">Pharmacy</a>
+          <a href="#about">About Us</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="foot-h">Working Hours</div>
+        <div class="foot-links">
+          <div style="padding:6px 0;font-size:13.5px;">Mon &ndash; Sat: 9 AM &ndash; 9 PM</div>
+          <div style="padding:6px 0;font-size:13.5px;">Sunday: 9 AM &ndash; 9 PM</div>
+          <div style="padding:6px 0;font-size:13.5px;color:#5FE0C9;">Emergency line available</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="foot-h">Contact</div>
+        <ul class="foot-contact">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Near Zila Sahkari Bank, Purana Ganj, Rampur, Uttar Pradesh 244901
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+919927743499">+91 99277 43499</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>&copy; <span id="year"></span> Tomar Clinic and Medicotech Drug House. All rights reserved.</span>
+      <span>Designed for trusted community healthcare in Rampur, UP.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating buttons -->
+<div class="floaters">
+  <a href="https://wa.me/919927743499?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment%20at%20Tomar%20Clinic." target="_blank" rel="noopener" class="fab fab-wa" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.6 6.3A8.9 8.9 0 0 0 12.02 4 8.94 8.94 0 0 0 3.1 12.9c0 1.57.41 3.1 1.19 4.45L3 21l3.76-1.27a8.93 8.93 0 0 0 4.26 1.08h.01a8.94 8.94 0 0 0 8.92-8.9 8.86 8.86 0 0 0-2.35-5.61zm-5.58 13.7h-.01a7.4 7.4 0 0 1-3.78-1.03l-.27-.16-2.81.95.94-2.74-.18-.28a7.4 7.4 0 0 1-1.14-3.94 7.42 7.42 0 0 1 7.42-7.4 7.36 7.36 0 0 1 5.24 2.17 7.34 7.34 0 0 1 2.17 5.23 7.42 7.42 0 0 1-7.58 7.2z"/></svg>
+  </a>
+  <a href="tel:+919927743499" class="fab fab-call" aria-label="Call clinic now">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+</div>
+
+<script>
+  lucide.createIcons();
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Mobile menu
+  const navToggle = document.getElementById('navToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  navToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => mobileMenu.classList.remove('open'));
+  });
+
+  // Scroll reveal (single subtle pass, not per-card cascade)
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+
+  // Form validation
+  const form = document.getElementById('apptForm');
+  const successBox = document.getElementById('formSuccess');
+
+  function validateField(id, condition){
+    const field = document.getElementById(id);
+    if (condition) {
+      field.classList.remove('invalid');
+      return true;
+    } else {
+      field.classList.add('invalid');
+      return false;
+    }
+  }
+
+  function runValidation(){
+    const name = document.getElementById('name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const service = document.getElementById('service').value;
+    const datetime = document.getElementById('datetime').value;
+
+    const validName = validateField('f-name', name.length > 1);
+    const validPhone = validateField('f-phone', /^[6-9]\d{9}$/.test(phone.replace(/\D/g,'')));
+    const validService = validateField('f-service', service !== '');
+    const validDatetime = validateField('f-datetime', datetime !== '');
+
+    return validName && validPhone && validService && validDatetime;
+  }
+
+  function buildWhatsAppMessage(){
+    const name = document.getElementById('name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const service = document.getElementById('service').value;
+    const datetime = document.getElementById('datetime').value;
+    const message = document.getElementById('message').value.trim();
+
+    let text = `Hi, I'd like to book an appointment at Tomar Clinic.%0A%0A`;
+    text += `Name: ${name}%0A`;
+    text += `Phone: ${phone}%0A`;
+    text += `Service: ${service}%0A`;
+    text += `Preferred Date/Time: ${datetime}%0A`;
+    if (message) text += `Message: ${message}`;
+    return text;
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (runValidation()) {
+      successBox.classList.add('show');
+      successBox.scrollIntoView({ behavior:'smooth', block:'nearest' });
+    } else {
+      successBox.classList.remove('show');
+    }
+  });
+
+  document.getElementById('waSubmit').addEventListener('click', () => {
+    if (runValidation()) {
+      const text = buildWhatsAppMessage();
+      window.open(`https://wa.me/919927743499?text=${text}`, '_blank');
+    } else {
+      successBox.classList.remove('show');
+      document.querySelector('.field.invalid')?.scrollIntoView({ behavior:'smooth', block:'center' });
+    }
+  });
+</script>
+
+</body>
+</html>
